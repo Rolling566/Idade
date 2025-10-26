@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="idade.css">
+</head>
+<body>
+    <header>
+        <h1>verificador de idade</h1>
+
+    </header>
+    <section>
+        <div class="">
+           <input type="number" placeholder="Ano de nascimento" min="0" max="120" id="ano" class="ano">
+           <p>Sexo:
+              <input type="radio" name="sexo" id="masculino" checked>
+              <label for="masculino">Masculino</label>
+
+              <input type="radio" name="sexo" id="feminino">
+              <label for="feminino">Feminino</label>
+           </p>
+           <button onclick="verificar()">verificar</button>
+        </div>
+        <div id="resultado">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p> &copy;Rolin António</p>
+    </footer>
+    <script src="idade.js"></script>
+</body>
+</html>
