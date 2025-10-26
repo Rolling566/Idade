@@ -70,7 +70,7 @@ function verificar() {
             }
             else if (idade < 19) {
                 //adolescente
-                imagem.setAttribute('src', 'Mulher/adolesscente250px.png')
+                imagem.setAttribute('src', 'Mulher/adolescente250px.png')
             }
             else if (idade < 30) {
                 //jovem
@@ -92,4 +92,5 @@ function verificar() {
         resultado.innerHTML = `Detetamos: ${genero} com ${idade} anos`
         resultado.appendChild(imagem)
     }
+
 }
